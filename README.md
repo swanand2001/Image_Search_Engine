@@ -10,7 +10,7 @@ This is the end-to-end implementation of image search engine. The image search e
 
 1. Clone the repository, and navigate to the downloaded folder.
 ```
-git clone https://github.com/lucko515/image-search-engine
+git clone https://github.com/swanand2001/Image_Search_Engine
 ```
 
 2. Install TensorFlow.
@@ -44,9 +44,9 @@ pip install -r requirements.txt
     ```
 
 
-5. Run throuh [image-search project.ipynb](https://github.com/lucko515/image-search-engine/blob/master/image-search%20project.ipynb) and generate all necessary files
+5. Run throuh [image-search project.ipynb](https://github.com/swanand2001/Image_Search_Engine/blob/main/image-search%20project.ipynb) and generate all necessary files
 
-6. Start the app.py file and enjoy!
+6. Start the app.py file
 
 ## Steps to improve the engine!
 
@@ -58,7 +58,6 @@ We could use color intesity to produce additional features and improve our image
 
 The Flask approach works, but it is not scalable. If you want to create the system more scalable you will need to change the implementation to TensorFlow Serving.
 
-The updated version of files are in the [folder](https://github.com/lucko515/image-search-engine/tree/master/tensorflow-serving-update).
 
 How to server the model using the TensorFlow serving: [tutorial](https://medium.com/epigramai/tensorflow-serving-101-pt-1-a79726f7c103)
 
